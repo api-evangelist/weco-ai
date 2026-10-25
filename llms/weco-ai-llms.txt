@@ -1,0 +1,31 @@
+# Weco Documentation
+
+> Weco is production-grade autoresearch: point it at your code and an evaluation metric, and an automated research loop (AIDE) searches, tests, and ships measurable improvements as auditable, version-controlled code.
+
+Weco AI builds recursively self-improving AI. The `weco` CLI wraps the open-source AIDE agent with orchestration, steerability, and observability so teams can run the autoresearch loop in production — improving agent harnesses, prompts, ML models, and other performance-critical code against any metric you can measure.
+
+## Getting Started
+
+- [Introduction](https://docs.weco.ai/): What Weco does and how the optimization loop works.
+- [Quickstart](https://docs.weco.ai/quickstart): Install and run your first optimization.
+- [How Weco works](https://docs.weco.ai/concepts/how-weco-works): The AIDE tree-search loop.
+- [Optimize with the CLI](https://docs.weco.ai/reference/optimize-with-cli): The `weco run` reference.
+- [Track any loop](https://docs.weco.ai/using-weco/track-any-loop): Observe external experiments in the Weco dashboard.
+- [Steerability](https://docs.weco.ai/using-weco/steerability): Guide the search with instructions and exemplars.
+
+## Examples
+
+- [Agentic scaffold optimization](https://docs.weco.ai/examples/extract-line-plot)
+- [Prompt engineering](https://docs.weco.ai/examples/prompt-engineering)
+- [Model development](https://docs.weco.ai/examples/model-development)
+- [Fraud detection](https://docs.weco.ai/examples/fraud-detection)
+- [PyTorch optimization](https://docs.weco.ai/examples/pytorch-optimization)
+- [Triton kernel optimization](https://docs.weco.ai/examples/triton-optimization)
+- [CUDA kernel optimization](https://docs.weco.ai/examples/cuda-optimization)
+
+## Resources
+
+- [FAQ](https://docs.weco.ai/resources/faq)
+- [Product site](https://www.weco.ai/): Positioning, use cases, and the examples gallery.
+- [weco CLI (GitHub)](https://github.com/WecoAI/weco-cli): Public mirror of the CLI.
+- [AIDE (open source)](https://github.com/WecoAI/aideml): The research agent behind Weco.

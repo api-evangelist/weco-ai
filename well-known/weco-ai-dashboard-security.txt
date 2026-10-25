@@ -1,0 +1,4 @@
+Contact: mailto:contact@weco.ai
+Expires: 2027-07-31T23:59:59Z
+Preferred-Languages: en
+Canonical: https://dashboard.weco.ai/.well-known/security.txt

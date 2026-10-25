@@ -1,0 +1,15 @@
+generated: '2026-10-24'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io)
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (security/weco-ai-domain-security.yml,
+  weco.ai) or its accepted GitHub org.'
+packages:
+- name: wecoai
+  registry: pypi
+  url: https://pypi.org/project/wecoai/
+  language: Python
+  official: true
+  version: 0.0.1
+  published: '2024-01-30'
+  evidence: metadata names weco.ai

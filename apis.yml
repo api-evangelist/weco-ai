@@ -1,25 +1,84 @@
 aid: weco-ai
+
 name: Weco Ai
-description: 'Weco Ai is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by founder-collective) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.weco.ai/thumb_og.png?v=2
+
+description: 'Weco AI is a platform focused on recursively self‑improving artificial intelligence, offering collaborative tools, research publications, and open‑source resources. The company builds AI systems that can iteratively improve themselves, publishes research such as AIDE and Autoresearch, and provides a developer-friendly ecosystem with documentation, APIs, and community channels.'
+
 url: https://raw.githubusercontent.com/api-evangelist/weco-ai/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- AI
+- Research
+- Platform
+- OpenSource
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- founder-collective
+
 common:
+- type: LLMsTxt
+  url: llms/weco-ai-llms.txt
+- type: SecurityTxt
+  url: well-known/weco-ai-dashboard-security.txt
+- type: WellKnown
+  url: well-known/weco-ai-well-known.yml
+- type: Hosts
+  url: hosts/weco-ai-hosts.yml
+- type: Vendors
+  url: vendors/weco-ai-vendors.yml
+- type: SDKs
+  url: packages/weco-ai-packages.yml
+- type: Packages
+  url: packages/weco-ai-packages.yml
+- type: TrustCenter
+  url: https://trust.weco.ai/
+- type: Leadership
+  url: https://www.weco.ai/team
+- type: APIReference
+  url: https://docs.weco.ai/reference/optimize-with-cli
+- type: GettingStarted
+  url: https://docs.weco.ai/quickstart
+- type: DomainSecurity
+  url: security/weco-ai-domain-security.yml
 - type: Website
   url: https://www.weco.ai/
+- type: Documentation
+  url: https://docs.weco.ai/
+- type: Blog
+  url: https://www.weco.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/WecoAI
+- type: TermsOfService
+  url: https://www.weco.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.weco.ai/privacy-policy
+
+apis: []
+
+x-backed-by:
+- founder-collective
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
